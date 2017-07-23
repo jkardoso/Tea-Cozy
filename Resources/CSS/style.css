@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  font-family: Helvetica;
+}
+
+header{
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	height: 69px;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	background-color: black;
+}
+
+header nav{
+	margin-left: auto;
+	text-align: right;
+	padding-right: 10px;
+}
+
+nav span{
+	padding: 20px 10px;
+}
+
+span a{
+	color: seashell;
+}
+
+.main{
+	padding-top: 69px;
+	width: 1200px;
+	text-align: center;
+	margin: auto;
+}
+
+#mission{
+	padding-top: 70px;
+	background-image: url("/Users/jkardoso/Documents/Programming/Codecademy/Projects/Tea Cozy/Resources/Images/mission-background.jpg");
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	flex-direction: wrap;
+}
+
+.content{
+	margin: auto;
+	background-color: black;
+	width: 100%;
+}
+
+#store{
+	width: 1000px;
+	height: 700px;
+	padding-top: 70px;
+	margin: auto;
+	text-align: center;
+}
+
+h2,h4{
+	margin: 0;
+	padding: 10px;
+}
+
+.articles{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.item{
+	padding: 5px;
+}
+
+.item img{
+	height: 200px;
+	display: block;
+	margin: 10px;
+}
+
+.item span{
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	padding: 5px;
+}
+
+.locations{
+	height: 500px;
+	padding-top: 70px;
+	text-align: center;
+	background-image: url("/Users/jkardoso/Documents/Programming/Codecademy/Projects/Tea Cozy/Resources/Images/locations-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.location{
+	padding-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stores{
+	background-color: black;
+	width: 300px;
+	opacity: 1.0;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+
+.contact{
+	height: 200px;
+	text-align: center;
+}
+
+footer{
+	padding-left: 20px;
+	text-align: left;
+}
